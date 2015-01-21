@@ -52,10 +52,12 @@ a {
 
 }
 
-// .header2 div:nth-child(4) {               <--for twitter/facebook logos
-
-
-
+// // .header2 div:nth-child(4)
+// .logos{
+//   width: 2em;
+//   height: 2em;
+//   background:black;
+// }
 .main1 {
   text-align: center;
   margin-left:1em;
@@ -85,7 +87,8 @@ a {
 
 .main2{
   border-top:.08em solid grey;
-
+  overflow: hidden;
+  
 }
 .main2 h1{
   margin-top:.75em;
@@ -101,8 +104,96 @@ a {
   
 }
 
+.image {
+  background: url("../images/projet-example-1.png");
+  background-size:100%;
+  height:18.5em;
+  margin: 2em 1.5em 0em 1.5em;
+  background-color:grey;
+  overflow: hidden;
+  border: .08em solid grey;
+  border-bottom:0;
+  background:stretch;
+
+}
+.image:nth-child(5){
+  background: url("../images/projet-example-6.jpg");
+}
+.image:nth-child(7){
+  background: url("../images/projet-example-3.png");
+}
+.image:nth-child(9){
+  background: url("../images/projet-example-4.png");
+}
+.image:nth-child(11){
+  background: url("../images/projet-example-5.png");
+}
+.image:nth-child(13){
+  background: url("../images/projet-example-9.jpg");
+}
+.image:nth-child(15){
+  background: url("../images/projet-example-7.png");
+}
+.image:nth-child(17){
+  background: url("../images/projet-example-8.png");
+}
+.image:nth-child(19){
+  background: url("../images/projet-example-2.png");
+}
+.image:nth-child(21){
+  background: url("../images/projet-example-10.png");
+}
+.subbox{
+  display:block;
+  height: 7em;
+  margin: 0em 1.5em 0em 1.5em;
+  border:.08em solid grey;
+
+}
+.projtitle{
+  font-size: 1em;
+  padding-left:.5em;
+  margin-bottom: 0;
+  margin-top:.25em;
+  }
+
+.logotype{
+  color:grey;
+  font-size:.9em;
+  padding-left:.6em;
+  margin-top: 0em;
+  margin-bottom: .5em;
+}
+.sometext{
+  margin-left: .7em;
+  margin-right: .7em;
+  padding-bottom:.7em;
+  font-size: .9em;
+  border-bottom:.08em solid grey;
+}
+.topics{
+  margin-top:1em;
+  font-size: .9em;
+  color:grey;
+  margin-left: .7em;
+  display: block;
+
+}
 
 
 
 
 
+
+
+.footer{
+
+  margin: 0 auto;
+  height: 15em;
+  text-align: center;
+}
+.footer img{
+  width: 4em;
+  height: 4em;
+  
+}
